@@ -1,0 +1,22 @@
+// mixins
+
+@mixin fondos {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+// variables
+
+$fuente-principal: "Montserrat", sans-serif;
+
+$size-subtitulo: 35px;
+
+$color-negro: black;
+
+$color-blanco: white;
+
+$vista-mobile: 600px;
+
+
+

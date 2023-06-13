@@ -1,0 +1,52 @@
+// estilos comunes en el sitio
+
+nav {
+  font-family: $fuente-principal;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+}
+
+ul li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+a {
+  color: $color-blanco;
+  text-decoration: none;
+}
+
+.subtitulo1 {
+  color: $color-negro;
+  font-size: $size-subtitulo;
+  font-weight: bold;
+  text-align: left;
+  font-family: $fuente-principal;
+  text-decoration: underline;
+  margin-left: 5%;
+  padding-top: 2rem;
+}
+
+.subtitulo2 {
+  color: $color-blanco;
+  font-size: $size-subtitulo;
+  font-weight: bold;
+  text-align: left;
+  font-family: $fuente-principal;
+  text-decoration: underline;
+  padding-left: 5%;
+  padding-top: 5rem;
+  padding-bottom: 4rem;
+}
+
+#colorfondo {
+  background-color: $color-negro;
+}

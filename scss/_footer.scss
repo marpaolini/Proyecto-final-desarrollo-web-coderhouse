@@ -1,0 +1,33 @@
+#fondofooter {
+  background-image: url("../img/fondo footer.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+
+@media (max-width: $vista-mobile) {
+  #fondofooter {
+    background-position-x: 600px;
+  }
+}
+
+.titulofooter {
+  color: $color-blanco;
+  font-size: $size-subtitulo;
+  font-weight: bold;
+  text-align: left;
+  font-family: $fuente-principal;
+  margin-left: 5%;
+  margin-top: 0;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+
+.tiktokicon {
+  color: $color-blanco;
+  font-size: 18px;
+  text-align: left;
+  margin-left: 8%;
+  padding: 5px;
+  font-family: $fuente-principal;
+}
